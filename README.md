@@ -44,3 +44,9 @@ Then it should be ready to use!
 $ node_modules/.bin/mbtastatusline
 Shawmut - Inbound: 1 minute, 11 minutes, 33 minutes; 2 alerts!
 ```
+
+## Limitations
+
+- Currently this is MacOSX only.
+- Responses are cached in `/usr/local/var/`, and you are expected to have write
+  access to that directory.
