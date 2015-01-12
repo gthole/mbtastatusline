@@ -1,0 +1,13 @@
+{
+    "preset": "google",
+    "fileExtensions": [ ".js", "jscs" ],
+
+    "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+    "validateQuoteMarks": "\"",
+
+    "disallowSpacesInsideObjectBrackets": null,
+    "disallowMultipleVarDecl": null,
+    "safeContextKeyword": "self",
+
+    "excludeFiles": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "mbtastatusline",
+  "version": "0.0.1",
+  "description": "A command line utility to retrieve predicted arrival times from the MBTA based on your network settings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint lib/* test/* && jscs lib/* test/* && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gthole/mbtastatusline.git"
+  },
+  "bin": {
+    "mbtastatusline": "./index.js"
+  },
+  "keywords": [
+    "MBTA",
+    "api",
+    "prediction",
+    "Boston"
+  ],
+  "author": {
+    "name": "Greg Thole",
+    "email": "gthole@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gthole/mbtastatusline/issues"
+  },
+  "homepage": "https://github.com/gthole/mbtastatusline",
+  "devDependencies": {
+    "moment": "*",
+    "chai": "*",
+    "mocha": "*",
+    "jshint": "*",
+    "jscs": "*"
+  }
+}
