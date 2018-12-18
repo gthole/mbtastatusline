@@ -29,6 +29,7 @@ For example:
 
 ```JSON
 {
+  "MBTA_API_KEY": "my-key",
   "MyHomeNetwork": {
      "stop": "70092",
      "headsign": "Ashmont"
@@ -39,8 +40,7 @@ For example:
 }
 ```
 
-Finally, you need to export the environment variable `MBTA_API_KEY` with your
-api key to the MBTA API.  You can get one at the [MBTA developer
+The `MBTA_API_KEY` should be your MBTA API.  You can get one at the [MBTA developer
 portal](http://api_v3.mbta.com).
 
 Then it should be ready to use!
