@@ -29,20 +29,25 @@ For example:
 
 ```JSON
 {
-  "MyHomeNetwork": "70092",
-  "WorkWiFi": "70048"
+  "MyHomeNetwork": {
+     "stop": "70092",
+     "headsign": "Ashmont"
+  },
+  "WorkWiFi": {
+     "stop": "70048"
+  }
 }
 ```
 
-Finally, you need to export the environment variable `MBTA_API_KEY` with your 
+Finally, you need to export the environment variable `MBTA_API_KEY` with your
 api key to the MBTA API.  You can get one at the [MBTA developer
-portal](http://realtime.mbta.com/portal).
+portal](http://api_v3.mbta.com).
 
 Then it should be ready to use!
 
 ```bash
 $ node_modules/.bin/mbtastatusline
-Shawmut - Inbound: 1 minute, 11 minutes, 33 minutes; 2 alerts!
+South Station: 1 minute, 11 minutes, 33 minutes; 2 alerts!
 ```
 
 ## Limitations
